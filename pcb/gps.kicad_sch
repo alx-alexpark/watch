@@ -812,40 +812,116 @@
 		)
 	)
 	(junction
-		(at 142.24 88.9)
+		(at 149.86 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3a135075-b613-43c5-87a4-d8632d2f6bc3")
+		(uuid "0f72f76d-7020-4bdb-bdf5-e027a4adc174")
 	)
 	(no_connect
-		(at 132.08 104.14)
+		(at 139.7 99.06)
 		(uuid "1c8d1d31-5d3a-4f31-b526-4e1efd3e0713")
 	)
 	(no_connect
-		(at 132.08 106.68)
+		(at 139.7 101.6)
 		(uuid "c03250f1-c892-4587-b935-0928a7972129")
 	)
 	(no_connect
-		(at 132.08 119.38)
+		(at 139.7 114.3)
 		(uuid "cef8c10e-b09f-401a-8077-77f28a039bd1")
 	)
 	(no_connect
-		(at 152.4 88.9)
+		(at 139.7 106.68)
+		(uuid "d3ee8ad3-ff55-4b09-ae6d-8790d31240d9")
+	)
+	(no_connect
+		(at 160.02 83.82)
 		(uuid "f154fe2b-2165-44aa-a535-1b2f0545f6cc")
+	)
+	(no_connect
+		(at 170.18 96.52)
+		(uuid "f8360f73-3f62-4b2b-b3c4-a4fafb8c8287")
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 144.78 88.9)
+			(xy 149.86 83.82) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35b71068-f0e8-45d1-898d-79fdf0d4e4fc")
+		(uuid "00403062-44d0-4f10-ae0d-6918dccff149")
+	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 149.86 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9969786e-9047-43fa-a90b-07a5606a4abe")
+	)
+	(wire
+		(pts
+			(xy 170.18 101.6) (xy 177.8 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af651f50-bb35-4269-ba2f-91c2d8794421")
+	)
+	(global_label "P0.13"
+		(shape input)
+		(at 139.7 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "00a42913-5930-496b-b8fb-99c781dbb6eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.2115 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "P0.15"
+		(shape input)
+		(at 139.7 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b096f37-ceea-4017-bb7d-ef9ca3adafb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.2115 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "TIMEPULSE"
 		(shape input)
-		(at 162.56 114.3 0)
+		(at 170.18 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -855,7 +931,7 @@
 		)
 		(uuid "3d8167d3-7456-4c04-96b8-aaaa1896d382")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.7051 114.3 0)
+			(at 183.3251 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -867,9 +943,57 @@
 			)
 		)
 	)
+	(global_label "P0.16"
+		(shape input)
+		(at 139.7 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "611ed91f-9fe5-4df7-aaeb-52091b2d7f2c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.2115 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "P0.14"
+		(shape input)
+		(at 139.7 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea5617b9-5431-410c-bec7-35ee957d61e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.2115 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 142.24 88.9 0)
+		(at 154.94 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -878,9 +1002,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1d743f10-aa00-40ad-a079-905b771e23d9")
+		(uuid "116d5d40-ca13-4fbc-92e4-a856de35e202")
 		(property "Reference" "#PWR016"
-			(at 142.24 92.71 0)
+			(at 154.94 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -891,7 +1015,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 142.24 84.455 0)
+			(at 154.94 79.375 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -901,7 +1025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 88.9 0)
+			(at 154.94 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -912,7 +1036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 88.9 0)
+			(at 154.94 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -923,7 +1047,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 142.24 88.9 0)
+			(at 154.94 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -934,7 +1058,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f840981a-4cde-4bb8-823a-121f2112bc6e")
+			(uuid "b84619f1-7346-4c00-ab84-e765ab80afdd")
 		)
 		(instances
 			(project "watch"
@@ -947,7 +1071,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 147.32 124.46 0)
+		(at 154.94 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -958,7 +1082,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f13de4c-0bb0-4a49-b4a3-e5179082fb69")
 		(property "Reference" "#PWR04"
-			(at 147.32 130.81 0)
+			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -969,7 +1093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 128.905 0)
+			(at 154.94 123.825 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -979,7 +1103,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.32 124.46 0)
+			(at 154.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -990,7 +1114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 124.46 0)
+			(at 154.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1001,7 +1125,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 147.32 124.46 0)
+			(at 154.94 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1024,8 +1148,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Antenna")
-		(at 170.815 101.6 0)
+		(lib_id "power:+3V3")
+		(at 149.86 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1033,32 +1157,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8349ffb4-17ff-4009-8ec3-c6729a8a5661")
-		(property "Reference" "AE1"
-			(at 173.355 100.9649 0)
+		(uuid "3fd573a5-4d0b-43dc-8866-efc1c5e32ea7")
+		(property "Reference" "#PWR034"
+			(at 149.86 85.09 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Antenna"
-			(at 173.355 103.5049 0)
+		(property "Value" "+3V0_GPS"
+			(at 149.86 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 170.815 101.6 0)
+			(at 149.86 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1069,7 +1191,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.815 101.6 0)
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 149.86 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a0ef504-8081-4b8b-93d4-99488f74f55c")
+		)
+		(instances
+			(project "watch"
+				(path "/904dae25-c5cf-4dab-9024-26ce0dbc2dd1"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Antenna")
+		(at 177.8 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8349ffb4-17ff-4009-8ec3-c6729a8a5661")
+		(property "Reference" "AE1"
+			(at 180.34 95.8849 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Antenna"
+			(at 180.34 98.4249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1080,7 +1281,7 @@
 			)
 		)
 		(property "Description" "Antenna"
-			(at 170.815 101.6 0)
+			(at 177.8 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1104,7 +1305,7 @@
 	)
 	(symbol
 		(lib_id "RF_GPS:MAX-M10S")
-		(at 147.32 106.68 0)
+		(at 154.94 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1115,7 +1316,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd06ee32-5e79-48a6-9127-f3963576be4a")
 		(property "Reference" "U3"
-			(at 149.4633 123.825 0)
+			(at 157.0833 118.745 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1126,7 +1327,7 @@
 			)
 		)
 		(property "Value" "MAX-M10S"
-			(at 149.4633 126.365 0)
+			(at 157.0833 121.285 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1137,7 +1338,7 @@
 			)
 		)
 		(property "Footprint" "RF_GPS:ublox_MAX"
-			(at 157.48 123.19 0)
+			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1148,7 +1349,7 @@
 			)
 		)
 		(property "Datasheet" "https://content.u-blox.com/sites/default/files/MAX-M10S_DataSheet_UBX-20035208.pdf"
-			(at 147.32 106.68 0)
+			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1159,7 +1360,7 @@
 			)
 		)
 		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 3.6V"
-			(at 147.32 106.68 0)
+			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1237,5 +1438,4 @@
 			(page "2")
 		)
 	)
-	(embedded_fonts no)
 )
