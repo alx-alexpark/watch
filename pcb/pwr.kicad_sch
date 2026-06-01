@@ -2571,6 +2571,12 @@
 		(uuid "1ea4d436-974e-4b76-8730-dde1e46b37e3")
 	)
 	(junction
+		(at 53.34 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20a90e32-ed92-4df8-9a71-0f2fc2c2eda1")
+	)
+	(junction
 		(at 110.49 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2653,12 +2659,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9fd1762c-87fe-4230-be6f-869fddce6483")
-	)
-	(junction
-		(at 66.04 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2ebe6f4-1b11-4bd7-b622-d62e872d841c")
 	)
 	(junction
 		(at 96.52 116.84)
@@ -3455,6 +3455,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "VBAT_RAW"
+		(shape input)
+		(at 231.14 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6bc6996f-38e1-47e0-b536-9b0b82c4ae3a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.3176 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7046,10 +7070,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ddbe61c8-7379-4e61-b974-ff6954bcb271")
 		(property "Reference" "BT2"
-			(at 234.95 106.1084 0)
+			(at 233.68 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7060,7 +7083,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 234.95 108.6484 0)
+			(at 233.68 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7806,7 +7829,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 66.04 96.52 0)
+		(at 53.34 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7817,7 +7840,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe32fffa-78d6-4cff-b332-39d02e316ef4")
 		(property "Reference" "#PWR025"
-			(at 66.04 100.33 0)
+			(at 53.34 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7828,7 +7851,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 66.04 91.44 0)
+			(at 53.34 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7838,7 +7861,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 96.52 0)
+			(at 53.34 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7849,7 +7872,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 96.52 0)
+			(at 53.34 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7860,7 +7883,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 66.04 96.52 0)
+			(at 53.34 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
