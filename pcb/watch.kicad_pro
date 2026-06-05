@@ -658,6 +658,18 @@
           "label": "PARTREV",
           "name": "PARTREV",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -734,7 +746,7 @@
         "uuid": "55e581b0-f918-4a43-a276-2e38ad945bed"
       }
     ],
-    "used_designators": "U4,U6,U8-9",
+    "used_designators": "SW1-4,Y1,Y3,U4,U6,U8-9",
     "variants": []
   },
   "sheets": [

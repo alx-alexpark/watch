@@ -1005,6 +1005,289 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Crystal_GND24"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Y"
+				(at 3.175 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -1.27) (xy -2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.143 2.54)
+					(end 1.143 -2.54)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_GND24_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(hide yes)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
@@ -4089,6 +4372,18 @@
 		)
 	)
 	(junction
+		(at 180.34 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0259dfd0-dc6b-46be-8a16-e5ea12d46cf7")
+	)
+	(junction
+		(at 87.63 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "064c24c8-d275-43a5-8d01-27edb4c82388")
+	)
+	(junction
 		(at 128.27 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4101,16 +4396,16 @@
 		(uuid "3135e513-c236-4972-a5cd-a1512517dce8")
 	)
 	(junction
-		(at 181.61 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "38f3a976-2d54-497b-9393-4079304f4c88")
-	)
-	(junction
 		(at 157.48 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a2cd676-14d6-4242-8109-41eef9214abb")
+	)
+	(junction
+		(at 74.93 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b1b13fd-cfa6-4fb9-8b42-38722e652a17")
 	)
 	(junction
 		(at 85.09 20.32)
@@ -4131,16 +4426,16 @@
 		(uuid "5b4c4f6f-bccc-4d49-a4be-5c4f5262213a")
 	)
 	(junction
+		(at 220.98 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6269a1ae-1d26-490d-86c8-499e87d34a0f")
+	)
+	(junction
 		(at 168.275 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64efc5c6-ce02-4ff1-8c8c-5d019d27dd00")
-	)
-	(junction
-		(at 181.61 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "695db7fa-7e90-48f2-8bef-d63d9be96f28")
 	)
 	(junction
 		(at 74.93 124.46)
@@ -4158,19 +4453,13 @@
 		(at 220.98 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8315c969-37d8-43af-8bb7-5e1e9af60f6a")
+		(uuid "84f23b30-fa21-4f80-a93e-b0a21adcd7d9")
 	)
 	(junction
 		(at 250.19 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92b4c9c6-d8ff-4cc7-9996-615c793a2ea7")
-	)
-	(junction
-		(at 220.98 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "977f7c9c-e410-4b16-8f72-87d96f6a54ce")
 	)
 	(junction
 		(at 201.93 60.96)
@@ -4185,28 +4474,28 @@
 		(uuid "ad75aadd-5642-4074-95e0-03bd77f8d4f8")
 	)
 	(junction
-		(at 220.98 129.54)
+		(at 180.34 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ad9e41dd-e459-4362-80b9-fd08e256a194")
-	)
-	(junction
-		(at 87.63 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c2bbe57c-5c1f-4156-861d-b1cdb78a6baf")
+		(uuid "c611d37f-de0a-4d52-8543-386137d48526")
 	)
 	(junction
 		(at 87.63 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c31e77a8-0e7f-4950-9137-42fb91712697")
+		(uuid "ca28eebd-19e4-48b0-a6cc-81786e2e1359")
 	)
 	(junction
 		(at 96.52 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e28bc720-a49a-4e26-ba3c-bbbb8e4642e2")
+	)
+	(junction
+		(at 220.98 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8a70725-2852-4a6a-a7e0-361cc62bd830")
 	)
 	(junction
 		(at 135.255 20.32)
@@ -4336,16 +4625,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 129.54) (xy 220.98 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "090fdc68-1211-468d-93db-9c6a82a4649d")
-	)
-	(wire
-		(pts
 			(xy 173.99 55.88) (xy 173.99 53.34)
 		)
 		(stroke
@@ -4376,6 +4655,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 119.38) (xy 82.55 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1291bf72-0923-4d17-94e2-b830c94083f0")
+	)
+	(wire
+		(pts
 			(xy 201.93 53.34) (xy 199.39 53.34)
 		)
 		(stroke
@@ -4396,7 +4685,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 114.3) (xy 74.93 124.46)
+			(xy 74.93 114.3) (xy 74.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4433,16 +4722,6 @@
 			(type default)
 		)
 		(uuid "249c0596-b64e-410e-ab40-96e79141bfcc")
-	)
-	(wire
-		(pts
-			(xy 87.63 115.57) (xy 87.63 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25de0779-93ba-4d06-8ae4-7464a13e5f1b")
 	)
 	(wire
 		(pts
@@ -4486,6 +4765,26 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 115.57) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c20dacb-d974-48cf-93a6-3794f77df1ec")
+	)
+	(wire
+		(pts
+			(xy 180.34 53.34) (xy 194.31 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32de3c0e-f1e5-4b3d-b071-97b0276deb48")
+	)
+	(wire
+		(pts
 			(xy 250.19 58.42) (xy 250.19 60.96)
 		)
 		(stroke
@@ -4493,16 +4792,6 @@
 			(type default)
 		)
 		(uuid "34dc2b6e-26ce-4eb8-9afc-2b342a473f38")
-	)
-	(wire
-		(pts
-			(xy 87.63 124.46) (xy 87.63 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3884e74b-eed8-47de-b398-18ced948672e")
 	)
 	(wire
 		(pts
@@ -4526,7 +4815,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 60.96) (xy 181.61 60.96)
+			(xy 173.99 60.96) (xy 180.34 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4596,16 +4885,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 114.3) (xy 87.63 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ca3326-6bda-4742-8dc0-f1cd30d7bf71")
-	)
-	(wire
-		(pts
 			(xy 130.81 48.26) (xy 130.81 20.32)
 		)
 		(stroke
@@ -4636,13 +4915,23 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 124.46) (xy 87.63 124.46)
+			(xy 220.98 129.54) (xy 220.98 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "725a3fc8-03bb-40f8-a5e5-7aba1409465a")
+		(uuid "6d4b554b-e45f-4314-91dc-dbd692d90d61")
+	)
+	(wire
+		(pts
+			(xy 82.55 124.46) (xy 87.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a48a9e-a1c0-47ee-9b01-1efcbe34fb6f")
 	)
 	(wire
 		(pts
@@ -4653,6 +4942,16 @@
 			(type default)
 		)
 		(uuid "7eb34d48-2056-4e6d-96ba-e56e8d2c60c5")
+	)
+	(wire
+		(pts
+			(xy 82.55 114.3) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c9830c-384a-4ce9-9391-1ced09e5321e")
 	)
 	(wire
 		(pts
@@ -4676,16 +4975,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 124.46) (xy 87.63 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88e997e2-218f-418d-8b68-eeed86b2ff5a")
-	)
-	(wire
-		(pts
 			(xy 86.36 165.1) (xy 95.25 165.1)
 		)
 		(stroke
@@ -4693,16 +4982,6 @@
 			(type default)
 		)
 		(uuid "8a8deffd-7d80-4b96-8423-f05bb477aca9")
-	)
-	(wire
-		(pts
-			(xy 181.61 60.96) (xy 173.99 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b6e2675-f034-43b0-b45c-4e712eaa8102")
 	)
 	(wire
 		(pts
@@ -4746,6 +5025,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 124.46) (xy 95.25 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92ba12bb-4053-4031-ab17-22ad07927a7c")
+	)
+	(wire
+		(pts
 			(xy 161.29 182.88) (xy 165.1 182.88)
 		)
 		(stroke
@@ -4756,7 +5045,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 121.92) (xy 220.98 129.54)
+			(xy 220.98 114.3) (xy 220.98 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4786,13 +5075,33 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 53.34) (xy 181.61 53.34)
+			(xy 173.99 53.34) (xy 180.34 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9fa3cf79-a1fa-47c4-a2e4-7195b7a29eaa")
+	)
+	(wire
+		(pts
+			(xy 87.63 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1383e2c-8e51-4fe0-9e19-b50b9c54a69e")
+	)
+	(wire
+		(pts
+			(xy 220.98 121.92) (xy 220.98 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ba6020-63b7-4873-a9df-8e2bd626014f")
 	)
 	(wire
 		(pts
@@ -4936,6 +5245,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 60.96) (xy 194.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d76dee02-09fe-402d-bdc4-105f48516d55")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 87.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d54bf4-620b-4e59-a31d-0e87d5d180dc")
+	)
+	(wire
+		(pts
 			(xy 153.67 41.91) (xy 157.48 41.91)
 		)
 		(stroke
@@ -4983,16 +5312,6 @@
 			(type default)
 		)
 		(uuid "e4c690c6-c081-4a7e-89f5-223cb4ec3a99")
-	)
-	(wire
-		(pts
-			(xy 220.98 114.3) (xy 220.98 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e608d8bf-c120-4eda-998f-a67a09aa9b35")
 	)
 	(wire
 		(pts
@@ -5046,23 +5365,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 53.34) (xy 181.61 53.34)
+			(xy 74.93 119.38) (xy 74.93 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa0ade96-2103-4026-87d0-7375864dc9bb")
-	)
-	(wire
-		(pts
-			(xy 87.63 114.3) (xy 95.25 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc64fc96-fb7b-40cc-bae8-d05a7a117015")
+		(uuid "faa6081f-bff6-4fd6-b0c7-175fd6a2a272")
 	)
 	(wire
 		(pts
@@ -9128,6 +9437,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 145.415 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 145.415 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "437398c9-5aee-4caf-a185-ed711a22ec76")
 		)
@@ -9138,6 +9469,168 @@
 			(project "watch"
 				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 215.9 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "05f336d4-6b9f-4a24-9831-a5b9998efc31")
+		(property "Reference" "SW1"
+			(at 215.9 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 215.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 215.9 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "576a0ca6-c0fc-4e08-bc65-6617646c4180")
+		)
+		(pin "1"
+			(uuid "aed82a6b-68d5-4a17-89e6-dc8abf80348a")
+		)
+		(instances
+			(project "watch"
+				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Crystal")
+		(at 180.34 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06072a03-95a4-41d2-a776-1d90e5bc8534")
+		(property "Reference" "Y1"
+			(at 184.15 55.8799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "32.768KHz"
+			(at 184.15 58.4199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Two pin crystal"
+			(at 180.34 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db8ca016-8b0e-4973-942b-11e91107fdf2")
+		)
+		(pin "2"
+			(uuid "2faf1483-c6bd-4d14-ada2-7a5d8c5149d4")
+		)
+		(instances
+			(project "watch"
+				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -9231,10 +9724,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0971bea9-032f-45ab-a940-866519f1fbcc")
 		(property "Reference" "C11"
-			(at 80.0163 118.11 90)
+			(at 80.01 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9244,7 +9736,7 @@
 			)
 		)
 		(property "Value" "12pF"
-			(at 80.0163 120.65 90)
+			(at 80.01 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9297,6 +9789,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 80.01 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 80.01 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e093ba0c-062b-4de7-ad93-526b4d16e6a2")
 		)
@@ -9313,8 +9827,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal")
-		(at 87.63 119.38 90)
+		(lib_id "Device:Crystal_GND24")
+		(at 87.63 119.38 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9322,31 +9836,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a001843-a307-4a2e-84b3-5b912cb0f791")
-		(property "Reference" "Y1"
-			(at 91.44 118.1099 90)
+		(uuid "0a6a0729-4276-4981-8b24-b628230b6fee")
+		(property "Reference" "Y3"
+			(at 91.44 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "RV-3028-C7"
-			(at 91.44 120.6499 90)
+		(property "Value" "32MHz"
+			(at 91.44 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 87.63 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9357,7 +9870,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
+		(property "Datasheet" ""
 			(at 87.63 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9368,7 +9881,7 @@
 				)
 			)
 		)
-		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
 			(at 87.63 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -9379,8 +9892,30 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C3019759"
-			(at 87.63 119.38 90)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 74.93 119.38 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 72.39 119.38 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5441424"
+			(at 87.63 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9390,16 +9925,22 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "faea7f0c-bc9b-46f4-ad0b-e258555fbf6f")
+		(pin "3"
+			(uuid "97fe907b-f3b7-42de-a288-a91954866f05")
 		)
 		(pin "2"
-			(uuid "a17a644e-3b64-4c07-b813-11eb6dbb220d")
+			(uuid "80948330-4de9-4bbf-9432-ab764ebff514")
+		)
+		(pin "4"
+			(uuid "ddadf8e2-b1c1-47b1-a924-8263b89126bf")
+		)
+		(pin "1"
+			(uuid "7f039a81-2e58-4f6d-8156-f0412b9db610")
 		)
 		(instances
 			(project "watch"
 				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
-					(reference "Y1")
+					(reference "Y3")
 					(unit 1)
 				)
 			)
@@ -9472,6 +10013,28 @@
 			)
 		)
 		(property "LCSC Part" "C1622"
+			(at 168.275 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 168.275 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 168.275 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9592,6 +10155,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 252.73 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 252.73 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "3882ef94-acb4-4025-b6f7-1608881af53d")
 		)
@@ -9684,6 +10269,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 95.25 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7d04fbe6-d7c6-4cd8-bb47-22bbbddb87cb")
 		)
@@ -9694,99 +10301,6 @@
 			(project "watch"
 				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 181.61 57.15 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1f63102e-5e3d-49d5-b9ac-cfa923289697")
-		(property "Reference" "Y2"
-			(at 185.42 55.8799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "32.768KHz"
-			(at 185.42 58.4199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 181.61 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 181.61 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
-			(at 181.61 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C7519"
-			(at 181.61 57.15 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cae802e8-3c5a-496f-b723-6963196c429d")
-		)
-		(pin "2"
-			(uuid "df1213e8-6189-4106-8ff9-6c4eb44186ba")
-		)
-		(instances
-			(project "watch"
-				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
-					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -9943,6 +10457,86 @@
 			(project "watch"
 				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 215.9 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ea5cc87-24ef-4923-aff3-8f9ab435919a")
+		(property "Reference" "SW4"
+			(at 215.9 132.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 215.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 215.9 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8905e69-e82f-446a-a522-579eb6fae223")
+		)
+		(pin "1"
+			(uuid "821dbac1-29b1-4a2d-81c2-6392518cea1e")
+		)
+		(instances
+			(project "watch"
+				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -10202,7 +10796,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.1k"
+		(property "Value" "nRF52840"
 			(at 132.9533 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10247,6 +10841,28 @@
 			)
 		)
 		(property "LCSC Part" "C23186"
+			(at 128.27 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 128.27 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 128.27 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10565,6 +11181,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 84.455 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 84.455 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b4433b6-e8e8-49a7-8835-353c2717e872")
 		)
@@ -10657,6 +11295,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 73.66 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 73.66 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d406bc95-5052-42b7-88fd-ebc239092e9f")
 		)
@@ -10739,6 +11399,28 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
+			(at 96.52 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 96.52 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 96.52 24.765 0)
 			(hide yes)
 			(show_name no)
@@ -10859,6 +11541,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 252.73 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 252.73 50.8 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bd57d9f7-dfd0-4317-9d53-d9771dca839c")
 		)
@@ -10934,6 +11638,28 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 265.43 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 265.43 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 265.43 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -11059,6 +11785,28 @@
 		)
 		(property "Sim.Pins" ""
 			(at 234.95 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 234.95 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 234.95 60.96 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11276,6 +12024,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 107.315 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 107.315 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "37cec56f-c899-40fd-8f73-1a6d4fb3da24")
 		)
@@ -11286,6 +12056,86 @@
 			(project "watch"
 				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 215.9 129.54 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ece52fb-945a-4495-adf8-fea8199cff52")
+		(property "Reference" "SW3"
+			(at 215.9 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9f39cc48-e275-4bbf-94ed-eccdd36d05c0")
+		)
+		(pin "1"
+			(uuid "0d3e937b-0ef2-484a-b564-6905dca14d91")
+		)
+		(instances
+			(project "watch"
+				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -11445,6 +12295,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 151.13 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "39a72f69-31e9-4ae2-b3d4-3dae6a10aced")
 		)
@@ -11527,6 +12399,28 @@
 			)
 		)
 		(property "LCSC Part" "C19666"
+			(at 135.255 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 135.255 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 135.255 24.765 0)
 			(hide yes)
 			(show_name no)
@@ -11630,6 +12524,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 151.13 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 151.13 41.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "65c5e94c-d807-40a3-bd10-a1cb9bec6c68")
 		)
@@ -11713,6 +12629,28 @@
 			)
 		)
 		(property "LCSC Part" "C88182"
+			(at 143.51 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 143.51 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 143.51 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -12048,6 +12986,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 85.09 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 85.09 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0d8c55f6-f586-43c0-8a71-033826c4706f")
 		)
@@ -12218,6 +13178,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 118.745 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 118.745 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cd9a07bf-ef5e-4edd-ae8a-dc25a71918b4")
 		)
@@ -12310,6 +13292,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 157.48 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "90059c8e-936e-4c60-87ec-c476b3bdf46c")
 		)
@@ -12320,188 +13324,6 @@
 			(project "watch"
 				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 215.9 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b47d6b0f-dae4-4adc-948a-1bae025fcb88")
-		(property "Reference" "SW2"
-			(at 215.9 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 215.9 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.9 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 215.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1dfd9015-2dd2-4c77-8b8d-ee6707afb487")
-		)
-		(pin "1"
-			(uuid "935c249e-d9a6-4182-8bef-a1d4dd19c0bf")
-		)
-		(instances
-			(project "watch"
-				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 215.9 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bc1e6140-5c1c-457e-a6ca-b2c58224f2df")
-		(property "Reference" "SW4"
-			(at 215.9 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 215.9 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.9 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 215.9 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 215.9 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "db496cf7-89c8-45fa-a877-238ae54b6a6e")
-		)
-		(pin "1"
-			(uuid "56d9eaf6-5d0f-48f7-a931-fa5ea1a9b883")
-		)
-		(instances
-			(project "watch"
-				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -12650,6 +13472,28 @@
 			)
 		)
 		(property "LCSC Part" "C1547"
+			(at 196.85 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 196.85 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 196.85 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -12842,6 +13686,28 @@
 		)
 		(property "Sim.Pins" ""
 			(at 257.175 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 257.175 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 257.175 45.72 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13175,6 +14041,28 @@
 				)
 			)
 		)
+		(property "KLC_S3.3" ""
+			(at 80.01 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 80.01 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "838d4b57-5378-4c5a-9865-8b6344cbe220")
 		)
@@ -13425,97 +14313,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 215.9 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e1779c64-714e-4e0f-8c0a-2c101917b820")
-		(property "Reference" "SW1"
-			(at 215.9 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 215.9 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.9 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 215.9 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 215.9 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "16d2a13f-1eeb-4b5e-8e4e-d7107000d3d3")
-		)
-		(pin "1"
-			(uuid "6161dff6-64b3-4203-ab85-8597c7c3dcf6")
-		)
-		(instances
-			(project "watch"
-				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 73.66 25.4 0)
 		(unit 1)
@@ -13582,6 +14379,28 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
+			(at 73.66 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 73.66 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 73.66 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -13686,97 +14505,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 215.9 129.54 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f065d4f3-2eee-49da-a2c2-d4459a80b4a4")
-		(property "Reference" "SW3"
-			(at 215.9 124.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 215.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 215.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 215.9 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 215.9 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b8eaec54-e31a-42f0-a123-c3f77b387805")
-		)
-		(pin "1"
-			(uuid "7f095901-8232-4a86-b781-51db2aca294d")
-		)
-		(instances
-			(project "watch"
-				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 196.85 60.96 270)
 		(unit 1)
@@ -13841,6 +14569,28 @@
 			)
 		)
 		(property "LCSC Part" "C1547"
+			(at 196.85 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.3" ""
+			(at 196.85 60.96 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
 			(at 196.85 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -14017,6 +14767,86 @@
 			(project "watch"
 				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 215.9 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fea60084-da71-4e09-943b-d4ed2670cc6e")
+		(property "Reference" "SW2"
+			(at 215.9 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 215.9 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 215.9 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ae9d8053-7534-49ab-96c6-832171b238d0")
+		)
+		(pin "1"
+			(uuid "862292af-14f1-4845-93ce-31aeb41b5ab3")
+		)
+		(instances
+			(project "watch"
+				(path "/6f074509-a69d-4af0-b8ba-261edfe1ac84"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
