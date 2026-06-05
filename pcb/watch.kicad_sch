@@ -9621,6 +9621,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C32346"
+			(at 180.34 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "db8ca016-8b0e-4973-942b-11e91107fdf2")
 		)
@@ -11670,6 +11681,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C7519"
+			(at 265.43 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "f13010af-417c-4238-bc03-50a5ed87e96e")
 		)
@@ -13428,7 +13450,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "22pF"
 			(at 196.596 47.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13471,7 +13493,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1547"
+		(property "LCSC Part" "C1555"
 			(at 196.85 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -14525,7 +14547,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "22pF"
 			(at 196.85 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14568,7 +14590,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1547"
+		(property "LCSC Part" "C1555"
 			(at 196.85 60.96 90)
 			(hide yes)
 			(show_name no)
