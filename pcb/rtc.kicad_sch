@@ -1003,7 +1003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BQ24074RGT"
+		(property "Value" "RV-3028-C7"
 			(at 147.32 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1014,7 +1014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
 			(at 170.18 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1025,7 +1025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24074.pdf"
+		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
 			(at 144.78 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1036,7 +1036,7 @@
 				)
 			)
 		)
-		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
 			(at 144.78 96.52 0)
 			(hide yes)
 			(show_name no)

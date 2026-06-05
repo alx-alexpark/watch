@@ -1327,7 +1327,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd06ee32-5e79-48a6-9127-f3963576be4a")
 		(property "Reference" "U3"
-			(at 157.0833 118.745 0)
+			(at 157.0833 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1338,7 +1338,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 157.0833 121.285 0)
+			(at 157.0833 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1348,7 +1348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "RF_GPS:ublox_MAX"
 			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -1359,7 +1359,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/MAX-M10S_DataSheet_UBX-20035208.pdf"
 			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -1370,7 +1370,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 3.6V"
 			(at 154.94 101.6 0)
 			(hide yes)
 			(show_name no)

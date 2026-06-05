@@ -10192,7 +10192,7 @@
 		(fields_autoplaced yes)
 		(uuid "420f89fb-818e-4e07-87e9-def96c248178")
 		(property "Reference" "U1"
-			(at 132.9533 187.325 0)
+			(at 132.9533 187.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10203,7 +10203,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 132.9533 189.865 0)
+			(at 132.9533 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10213,7 +10213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
 			(at 128.27 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -10224,7 +10224,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html"
 			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -10235,7 +10235,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73"
 			(at 128.27 119.38 0)
 			(hide yes)
 			(show_name no)

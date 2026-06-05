@@ -2541,12 +2541,6 @@
 		)
 	)
 	(junction
-		(at 88.9 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0b44bd80-25c7-4213-9ddb-4cdb3fb798fb")
-	)
-	(junction
 		(at 100.33 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2583,12 +2577,6 @@
 		(uuid "22212aa7-f90d-4bcb-9de3-162a5305eb75")
 	)
 	(junction
-		(at 96.52 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "267d4937-c5f6-4bb9-a78c-11e8853d1da7")
-	)
-	(junction
 		(at 229.87 127)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2619,6 +2607,12 @@
 		(uuid "6d996368-ab1d-4929-9be3-3635d7d6a779")
 	)
 	(junction
+		(at 195.58 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70dcf81c-bb29-4be7-9e03-da22a64e2605")
+	)
+	(junction
 		(at 231.14 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2643,12 +2637,6 @@
 		(uuid "8c43d32e-f995-430f-bf46-db197010d9b3")
 	)
 	(junction
-		(at 195.58 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d65d674-ba08-4750-ba29-ac3cca203303")
-	)
-	(junction
 		(at 339.09 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2664,7 +2652,7 @@
 		(at 96.52 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8a4c15c-602d-467c-b503-d3b29e76b91f")
+		(uuid "b28bafc0-1687-47a6-ae25-c637fc68d9df")
 	)
 	(junction
 		(at 166.37 114.3)
@@ -2683,6 +2671,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efd6466c-2130-40a0-b3e7-ce5d29c9db9f")
+	)
+	(junction
+		(at 96.52 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f735c7bd-e78a-420b-a2d9-7ba80298ac31")
 	)
 	(wire
 		(pts
@@ -3036,16 +3030,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 153.67) (xy 88.9 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81fd6cdf-0a3c-4a35-8ae7-e0313fef6494")
-	)
-	(wire
-		(pts
 			(xy 100.33 116.84) (xy 96.52 116.84)
 		)
 		(stroke
@@ -3073,16 +3057,6 @@
 			(type default)
 		)
 		(uuid "884e6c8b-83cd-41c1-9842-9efb1fb81a0f")
-	)
-	(wire
-		(pts
-			(xy 86.36 153.67) (xy 88.9 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "935eb13f-8eca-411c-9fad-838db43e2f0c")
 	)
 	(wire
 		(pts
@@ -3233,6 +3207,16 @@
 			(type default)
 		)
 		(uuid "be52dcf2-0db1-4511-a82e-26de0c6d761b")
+	)
+	(wire
+		(pts
+			(xy 88.9 153.67) (xy 96.52 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0cbc004-ab72-405d-8585-133fb7cf27ff")
 	)
 	(wire
 		(pts
@@ -3575,6 +3559,134 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Battery_Management:BQ24074RGT")
+		(at 195.58 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03b7a357-4844-4ce8-8448-5d779ec74640")
+		(property "Reference" "U6"
+			(at 197.7233 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BQ24074RGT"
+			(at 197.7233 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+			(at 203.2 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24074.pdf"
+			(at 203.2 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+			(at 195.58 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "11"
+			(uuid "947f5164-d96d-433d-bba9-7c131ffa9646")
+		)
+		(pin "10"
+			(uuid "459ebc5e-9a5d-48b0-928f-d57cbe79ee57")
+		)
+		(pin "9"
+			(uuid "3ee948d1-8f5c-4807-b88f-aff6a15c4274")
+		)
+		(pin "8"
+			(uuid "d0cb158f-eb0b-425d-8f9e-99373f07444c")
+		)
+		(pin "7"
+			(uuid "c54b5456-595f-4989-8362-5eb88eb980bd")
+		)
+		(pin "6"
+			(uuid "e590b8d4-a73f-49b4-8bec-56f48e6bd3c1")
+		)
+		(pin "5"
+			(uuid "0271a5de-0860-43dc-a37c-1ec5cb7a136f")
+		)
+		(pin "4"
+			(uuid "3b7b325d-138b-435a-ab7d-b23daab5f639")
+		)
+		(pin "3"
+			(uuid "0cb22b59-fe4f-4f5d-99e8-7d06f428c833")
+		)
+		(pin "2"
+			(uuid "8987c5f4-9fbb-404b-b93e-057dd71e0ed5")
+		)
+		(pin "1"
+			(uuid "3f05e682-f66b-432d-ab23-6c6eaba4f552")
+		)
+		(pin "12"
+			(uuid "88dd788d-85bf-4af4-9724-1ab00342d4c6")
+		)
+		(pin "13"
+			(uuid "ef7bc2b4-8a27-47d9-be76-2ea76fc0efec")
+		)
+		(pin "14"
+			(uuid "659b7e01-e901-454c-84a9-0fd8824b74f6")
+		)
+		(pin "15"
+			(uuid "b9749c05-b8bb-4fd7-858b-dad7fd9e42e1")
+		)
+		(pin "16"
+			(uuid "a5eaea83-9996-4fb6-8461-f2414e1f89b4")
+		)
+		(pin "17"
+			(uuid "630bcd84-3427-4fa4-9b59-8afa51bd0dcb")
+		)
+		(instances
+			(project "watch"
+				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
+					(reference "U6")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3934,170 +4046,6 @@
 			(project "watch"
 				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "TPS63802:TPS63802DLAR")
-		(at 81.28 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "16f02c3e-e8f7-4129-a6c4-a5ef3299a189")
-		(property "Reference" "U4"
-			(at 81.28 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "nRF52840"
-			(at 81.28 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html"
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73"
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" ""
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" ""
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC Part" "C190794"
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "b3d9521c-3c12-4880-bb2c-de54fdd3a730")
-		)
-		(pin "9"
-			(uuid "edafc4e9-622e-4621-b817-7d142dbbd973")
-		)
-		(pin "7"
-			(uuid "2de511e5-44a7-4688-b95f-6a53712a201b")
-		)
-		(pin "6"
-			(uuid "e187343e-bf04-4e60-8106-254acd3bc505")
-		)
-		(pin "3"
-			(uuid "11eeb482-7d09-46e3-9aa6-ddacf0074905")
-		)
-		(pin "10"
-			(uuid "a3329a73-fca3-4424-84a4-743ab6f13754")
-		)
-		(pin "1"
-			(uuid "a24e3920-debc-46fc-ad64-49ea31d618b6")
-		)
-		(pin "2"
-			(uuid "1f82f91c-a54e-475d-b360-5b3680ec7d18")
-		)
-		(pin "4"
-			(uuid "145eabb4-c971-4441-b7d4-acc7636b7bfa")
-		)
-		(pin "5"
-			(uuid "d9d75426-f928-43b8-b397-8f298a3c4f8d")
-		)
-		(instances
-			(project "watch"
-				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -4708,6 +4656,159 @@
 		)
 	)
 	(symbol
+		(lib_id "TPS63802:TPS63802DLAR")
+		(at 81.28 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "415ca720-0234-42e0-8c10-162fdb192f0a")
+		(property "Reference" "U4"
+			(at 81.28 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS63802DLAR"
+			(at 81.28 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TPS63802DLAR:VREG_TPS63802DLAR"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "9"
+			(uuid "aff1af91-75fd-4c38-b381-7956608f0662")
+		)
+		(pin "10"
+			(uuid "c4f97cee-e95e-43ba-a977-9cf639a2a8d8")
+		)
+		(pin "8"
+			(uuid "2e7b7d3c-7675-45ac-822f-ccb1982fc185")
+		)
+		(pin "7"
+			(uuid "e0a9f46f-b541-4552-bc19-c5e048cd5c95")
+		)
+		(pin "2"
+			(uuid "d5893a7b-1334-4740-aae5-64c6f8d96b29")
+		)
+		(pin "1"
+			(uuid "480dbd97-3b44-4bae-9664-e363d8bf7940")
+		)
+		(pin "3"
+			(uuid "66417352-00e4-45e4-a0ea-3b6b33cdf038")
+		)
+		(pin "4"
+			(uuid "c1f2a221-a8f7-43bc-b928-9bec3befe20f")
+		)
+		(pin "5"
+			(uuid "7071c9f3-e54d-49d0-a93a-d746a1a3f4b8")
+		)
+		(pin "6"
+			(uuid "75c09ec7-1837-4ee5-bb56-0eca8ed2a484")
+		)
+		(instances
+			(project "watch"
+				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 100.33 99.06 0)
 		(unit 1)
@@ -5286,150 +5387,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:TPS7A20xxxDQN")
-		(at 86.36 146.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6f604880-45bc-48c5-bf25-719c19dfee5a")
-		(property "Reference" "U6"
-			(at 86.36 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TPS63802DLAR"
-			(at 86.36 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TPS63802DLAR:VREG_TPS63802DLAR"
-			(at 86.36 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63802.pdf"
-			(at 86.36 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 86.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2845237"
-			(at 86.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" "Texas Instruments"
-			(at 86.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
-			(at 86.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PARTREV" "B"
-			(at 86.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 86.36 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "5f34f1d1-1607-4603-8104-8b71b4126394")
-		)
-		(pin "1"
-			(uuid "f5825d48-49c9-4aca-bd13-a080fe31a17e")
-		)
-		(pin "4"
-			(uuid "29c36e89-c3bf-4eef-a9ce-44435ab588c4")
-		)
-		(pin "5"
-			(uuid "862c692e-9836-4370-82a4-64eeedb626e4")
-		)
-		(pin "2"
-			(uuid "59c68fd1-9445-49f4-b801-f23c2c491efe")
-		)
-		(instances
-			(project "watch"
-				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 100.33 143.51 0)
 		(unit 1)
@@ -5502,145 +5459,6 @@
 			(project "watch"
 				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Battery_Management:BQ24074RGT")
-		(at 195.58 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "74c377c5-6bb0-4b0b-8d00-70317667df69")
-		(property "Reference" "U5"
-			(at 197.7233 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MAX-M10S"
-			(at 197.7233 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_GPS:ublox_MAX"
-			(at 203.2 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://content.u-blox.com/sites/default/files/MAX-M10S_DataSheet_UBX-20035208.pdf"
-			(at 203.2 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 3.6V"
-			(at 195.58 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C4153167"
-			(at 195.58 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "9"
-			(uuid "84770207-23bc-4fbe-b14d-e4a1cf793239")
-		)
-		(pin "10"
-			(uuid "aca59e66-356b-420e-8991-825b134dc9a4")
-		)
-		(pin "11"
-			(uuid "f4cf2fb2-7cc1-405a-ab65-7f7a9098fd22")
-		)
-		(pin "16"
-			(uuid "7162f7bc-4e5d-477b-a32d-d201cbdca20c")
-		)
-		(pin "12"
-			(uuid "52722e74-d237-4ce7-bb1c-c2807e7edbfb")
-		)
-		(pin "13"
-			(uuid "801da61e-d496-41e3-a7bc-8a4eaa3c83ff")
-		)
-		(pin "14"
-			(uuid "a2b13f1c-2e18-4657-ad6e-55ad327b650b")
-		)
-		(pin "15"
-			(uuid "93017354-2845-4564-9f97-1802b399373e")
-		)
-		(pin "17"
-			(uuid "7ee31ab6-5788-416e-9a9a-7dfe0940c7ba")
-		)
-		(pin "2"
-			(uuid "76e40381-883a-497c-a015-45cf2352adb1")
-		)
-		(pin "8"
-			(uuid "b8b345f3-ef38-401f-95ec-b1a17960f9d0")
-		)
-		(pin "3"
-			(uuid "b0b76af2-71af-403d-b2e7-2fa7f35c7c43")
-		)
-		(pin "1"
-			(uuid "f778f8d5-2874-43b8-9715-e034e465738f")
-		)
-		(pin "6"
-			(uuid "2872d707-3071-456a-be03-611df525095d")
-		)
-		(pin "4"
-			(uuid "98fad929-6380-478c-9743-fbe1f7ccf494")
-		)
-		(pin "7"
-			(uuid "50cc8212-5f5d-4904-9f53-f116413363a6")
-		)
-		(pin "5"
-			(uuid "170ac673-6e39-406a-be1d-c824c3913476")
-		)
-		(instances
-			(project "watch"
-				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6213,6 +6031,106 @@
 			(project "watch"
 				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TPS7A20xxxDQN")
+		(at 86.36 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b5237dd-df4a-485b-aef3-47f3dc0d5ba0")
+		(property "Reference" "U8"
+			(at 86.36 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS7A20xxxDQN"
+			(at 86.36 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
+			(at 86.36 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+			(at 86.36 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
+			(at 86.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C46459900"
+			(at 86.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d9a4ac41-b1dc-42d7-b45d-e193f5984b0e")
+		)
+		(pin "5"
+			(uuid "f3957c30-2c2f-4a49-b7d0-b5b282956d1f")
+		)
+		(pin "4"
+			(uuid "e3559868-414c-498c-8c69-18d6a946e33f")
+		)
+		(pin "3"
+			(uuid "79e72cdc-0a0a-4340-b11d-104f7c4fb3ab")
+		)
+		(pin "1"
+			(uuid "ddf822a6-b813-4691-8d30-cf9e855e9a1d")
+		)
+		(instances
+			(project "watch"
+				(path "/5e9c1242-9aea-4da8-a0c1-fe588a949721"
+					(reference "U8")
 					(unit 1)
 				)
 			)

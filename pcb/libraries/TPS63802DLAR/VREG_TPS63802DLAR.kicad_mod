@@ -1,5 +1,5 @@
 
-(footprint VREG_TPS63802DLAR (layer F.Cu) (tedit 6A1BB807)
+(footprint VREG_TPS63802DLAR (layer F.Cu) (tedit 6A22C5E7)
   (descr "")
   (attr smd)
   (fp_text reference REF** (at 1.175 -2.635 0) (layer F.SilkS)
