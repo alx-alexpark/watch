@@ -3609,7 +3609,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 219.71 127 90)
 			(hide yes)
 			(show_name no)
@@ -3643,6 +3643,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2297"
 			(at 219.71 127 0)
 			(hide yes)
 			(show_name no)
@@ -3691,7 +3702,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "46.4k"
 			(at 215.9 116.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +3713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3725,6 +3736,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 213.36 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C5126026"
 			(at 213.36 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -3848,7 +3870,7 @@
 				)
 			)
 		)
-		(property "Value" "46.4k"
+		(property "Value" "1.18k"
 			(at 171.45 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3858,7 +3880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -3882,6 +3904,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 171.45 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3016052"
+			(at 171.45 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3928,7 +3961,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS63802DLAR"
+		(property "Value" "nRF52840"
 			(at 81.28 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3938,7 +3971,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS63802DLAR:VREG_TPS63802DLAR"
+		(property "Footprint" "Package_DFN_QFN:Nordic_AQFN-73-1EP_7x7mm_P0.5mm"
 			(at 81.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3950,7 +3983,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63802.pdf"
+		(property "Datasheet" "http://infocenter.nordicsemi.com/topic/com.nordic.infocenter.nrf52/dita/nrf52/chips/nrf52840.html"
 			(at 81.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3961,7 +3994,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Multiprotocol BLE/ANT/2.4 GHz/802.15.4 Cortex-M4F SoC, AQFN-73"
 			(at 81.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3972,19 +4005,7 @@
 				)
 			)
 		)
-		(property "PARTREV" "B"
-			(at 81.28 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
+		(property "PARTREV" ""
 			(at 81.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3996,7 +4017,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+		(property "STANDARD" ""
 			(at 81.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4008,7 +4029,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Texas Instruments"
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
 			(at 81.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4020,7 +4041,19 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC Part" ""
+		(property "MANUFACTURER" ""
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC Part" "C190794"
 			(at 81.28 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -4260,7 +4293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 219.71 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -4294,6 +4327,17 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 219.71 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2286"
 			(at 219.71 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -4512,7 +4556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4535,6 +4579,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 160.02 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 160.02 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -4593,7 +4648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.49 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4616,6 +4671,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 110.49 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C45783"
 			(at 110.49 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4675,7 +4741,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 100.33 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4698,6 +4764,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 100.33 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2930114"
 			(at 100.33 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4757,7 +4834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 96.52 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -4780,6 +4857,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 96.52 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 96.52 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5219,7 +5307,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS7A20xxxDQN"
+		(property "Value" "TPS63802DLAR"
 			(at 86.36 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5229,7 +5317,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:Texas_X2SON-4_1x1mm_P0.65mm"
+		(property "Footprint" "TPS63802DLAR:VREG_TPS63802DLAR"
 			(at 86.36 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -5240,7 +5328,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps7a20.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63802.pdf"
 			(at 86.36 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5251,7 +5339,62 @@
 				)
 			)
 		)
-		(property "Description" "300 mA Low Dropout Voltage Regulator, Fixed Output, 1.6..6.0Vin, Low-Noise (7μV RMS), 6.5μA IQ LDO, X2SON-5"
+		(property "Description" ""
+			(at 86.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2845237"
+			(at 86.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 86.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.0 mm"
+			(at 86.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 86.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
 			(at 86.36 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5387,7 +5530,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BQ24074RGT"
+		(property "Value" "MAX-M10S"
 			(at 197.7233 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5398,7 +5541,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
+		(property "Footprint" "RF_GPS:ublox_MAX"
 			(at 203.2 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5410,7 +5553,7 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/bq24074.pdf"
+		(property "Datasheet" "https://content.u-blox.com/sites/default/files/MAX-M10S_DataSheet_UBX-20035208.pdf"
 			(at 203.2 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5421,7 +5564,18 @@
 				)
 			)
 		)
-		(property "Description" "USB-Friendly Li-Ion Battery Charger and Power-Path Management, VQFN-16"
+		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 3.6V"
+			(at 195.58 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C4153167"
 			(at 195.58 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -5928,7 +6082,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 121.92 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5951,6 +6105,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 121.92 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25741"
 			(at 121.92 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -6420,7 +6585,7 @@
 				)
 			)
 		)
-		(property "Value" "1.18k"
+		(property "Value" "1.5k"
 			(at 171.45 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6430,7 +6595,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6454,6 +6619,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 171.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25867"
+			(at 171.45 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6512,7 +6688,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 100.33 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6535,6 +6711,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 100.33 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2906973"
 			(at 100.33 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6696,7 +6883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 226.06 127 0)
 			(hide yes)
 			(show_name no)
@@ -6720,6 +6907,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 226.06 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25867"
+			(at 226.06 127 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6844,7 +7042,7 @@
 				)
 			)
 		)
-		(property "Value" "1.13k"
+		(property "Value" "1.5k"
 			(at 171.45 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6854,7 +7052,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 171.45 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -6878,6 +7076,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 171.45 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25867"
+			(at 171.45 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6934,7 +7143,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 226.06 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -6958,6 +7167,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 226.06 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25867"
+			(at 226.06 130.81 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7093,7 +7313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 231.14 107.696 90)
 			(hide yes)
 			(show_name no)
@@ -7355,7 +7575,7 @@
 				)
 			)
 		)
-		(property "Value" "4.12k"
+		(property "Value" "1.13k"
 			(at 172.742 94.6258 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7365,7 +7585,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 172.72 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -7389,6 +7609,17 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 172.72 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C22833"
+			(at 172.72 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7447,7 +7678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 217.17 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7470,6 +7701,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 217.17 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C19666"
 			(at 217.17 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7605,7 +7847,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.34 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7628,6 +7870,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 53.34 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C96446"
 			(at 53.34 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7686,7 +7939,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JLCImport:XFL4015-471MEC"
 			(at 60.96 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7779,7 +8032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 66.04 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -7802,6 +8055,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 66.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52923"
 			(at 66.04 149.86 0)
 			(hide yes)
 			(show_name no)
