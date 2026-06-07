@@ -664,6 +664,10 @@
 		(color 0 0 0 0)
 		(uuid "cc050c36-4cc5-472f-bb6e-3eca5f9029d0")
 	)
+	(no_connect
+		(at 157.48 93.98)
+		(uuid "9603773e-f2fe-4e65-97d5-afb5fb211c27")
+	)
 	(wire
 		(pts
 			(xy 120.65 90.17) (xy 120.65 86.36)
@@ -683,6 +687,30 @@
 			(type default)
 		)
 		(uuid "d43cf45a-3199-44db-b233-9262ee7323fb")
+	)
+	(global_label "LF_EXT_CLK"
+		(shape input)
+		(at 157.48 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ac0a7ab-a306-4743-8fd2-3dad29706d61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 171.4113 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(global_label "P0.27"
 		(shape input)
@@ -744,7 +772,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bca2d0d-e2fd-4912-85d1-af750917578f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR054"
 			(at 120.65 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -804,7 +832,7 @@
 		(instances
 			(project "watch"
 				(path "/55e581b0-f918-4a43-a276-2e38ad945bed"
-					(reference "#PWR050")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -937,7 +965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79ff4bf8-3dd0-4579-8704-928e01ce73c6")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR056"
 			(at 142.24 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -997,7 +1025,7 @@
 		(instances
 			(project "watch"
 				(path "/55e581b0-f918-4a43-a276-2e38ad945bed"
-					(reference "#PWR049")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1014,7 +1042,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "926c87eb-b94f-4582-b37d-91b83dbbdc41")
-		(property "Reference" "U7"
+		(property "Reference" "U8"
 			(at 147.32 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1129,7 +1157,7 @@
 		(instances
 			(project "watch"
 				(path "/55e581b0-f918-4a43-a276-2e38ad945bed"
-					(reference "U7")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1147,7 +1175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aed3b350-e20c-4c42-a4cb-50ed3599dec8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR055"
 			(at 132.08 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -1207,7 +1235,7 @@
 		(instances
 			(project "watch"
 				(path "/55e581b0-f918-4a43-a276-2e38ad945bed"
-					(reference "#PWR051")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1225,7 +1253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b92d2706-9767-4f56-bb63-ef5236c508d3")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR057"
 			(at 144.78 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1285,7 +1313,7 @@
 		(instances
 			(project "watch"
 				(path "/55e581b0-f918-4a43-a276-2e38ad945bed"
-					(reference "#PWR048")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)

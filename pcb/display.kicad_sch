@@ -11,14 +11,15 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "DS"
-				(at -10.414 2.032 0)
+			(property "Reference" "DS1"
+				(at -11.7373 1.8241 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" ""
@@ -64,6 +65,39 @@
 					)
 				)
 			)
+			(property "LCSC Part" "C127355"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S3.3" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "KLC_S4.1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "LS013B7DH03_1_1"
 				(rectangle
 					(start -11.43 -1.27)
@@ -85,9 +119,9 @@
 					)
 				)
 				(pin input line
-					(at 15.24 -8.89 180)
+					(at 2.54 -24.13 90)
 					(length 2.54)
-					(name "SCLK"
+					(name "VSSA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -95,132 +129,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -11.43 180)
-					(length 2.54)
-					(name "SI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 15.24 -13.97 180)
-					(length 2.54)
-					(name "SCS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -11.43 0)
-					(length 2.54)
-					(name "EXTCOMIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -8.89 0)
-					(length 2.54)
-					(name "DISP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 7.62 1.27 270)
-					(length 2.54)
-					(name "VDDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 1.27 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -13.97 -13.97 0)
-					(length 2.54)
-					(name "EXTMODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -238,6 +146,132 @@
 							)
 						)
 					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -13.97 0)
+					(length 2.54)
+					(name "EXTMODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 1.27 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 1.27 270)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -8.89 0)
+					(length 2.54)
+					(name "DISP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -13.97 -11.43 0)
+					(length 2.54)
+					(name "EXTCOMIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -13.97 180)
+					(length 2.54)
+					(name "SCS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 -11.43 180)
+					(length 2.54)
+					(name "SI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 					(number "9"
 						(effects
 							(font
@@ -247,9 +281,9 @@
 					)
 				)
 				(pin input line
-					(at 2.54 -24.13 90)
+					(at 15.24 -8.89 180)
 					(length 2.54)
-					(name "VSSA"
+					(name "SCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -678,6 +712,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "TODO: Validate FPC before ordering this!!\n"
+		(exclude_from_sim no)
+		(at 147.32 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "65db4991-1ab3-4c67-a870-cce1018dc0b9")
+	)
 	(junction
 		(at 153.67 80.01)
 		(diameter 0)
@@ -946,7 +990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "218ac340-91bb-44b3-bd5a-fc3281cdd10d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR052"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1006,7 +1050,7 @@
 		(instances
 			(project "watch"
 				(path "/1ea987a7-f4cb-45bc-8f81-16ca70afed15"
-					(reference "#PWR042")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -1024,7 +1068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "319d8fc2-ec50-495c-bc7c-d67be848078a")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR050"
 			(at 124.46 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1084,7 +1128,7 @@
 		(instances
 			(project "watch"
 				(path "/1ea987a7-f4cb-45bc-8f81-16ca70afed15"
-					(reference "#PWR045")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1102,7 +1146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fc93789-6f3a-4839-a327-8b33451be7db")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR051"
 			(at 148.59 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1162,7 +1206,7 @@
 		(instances
 			(project "watch"
 				(path "/1ea987a7-f4cb-45bc-8f81-16ca70afed15"
-					(reference "#PWR043")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1314,7 +1358,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JLCImport:5034801000"
 			(at 148.59 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -1546,7 +1590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d99e03d-b95a-403a-811b-959b71dd1815")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR049"
 			(at 120.65 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1606,7 +1650,7 @@
 		(instances
 			(project "watch"
 				(path "/1ea987a7-f4cb-45bc-8f81-16ca70afed15"
-					(reference "#PWR044")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -1624,7 +1668,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b1c7f3d6-7244-45ef-bfdf-052838e027ca")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR053"
 			(at 177.8 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -1684,7 +1728,7 @@
 		(instances
 			(project "watch"
 				(path "/1ea987a7-f4cb-45bc-8f81-16ca70afed15"
-					(reference "#PWR046")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
