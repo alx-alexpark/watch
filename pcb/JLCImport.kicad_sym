@@ -1,701 +1,2390 @@
 (kicad_symbol_lib
-  (version 20241209)
-  (generator "JLCImport")
-  (generator_version "1.0")
-  (symbol "NX2016SA-32MHZ-EXS00A-CS06654"
-    (pin_names (offset 1.016))
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "X" (at 0 7.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "NX2016SA-32MHZ-EXS00A-CS06654" (at 0 -7.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "JLCImport:NX2016SA-32MHZ-EXS00A-CS06654" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://item.szlcsc.com/248817.html" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "-40℃~+125℃ 32MHz 60Ω 8pF Crystal Oscillator SMD2016-4P Crystals ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "C5441424 CRYSTAL-SMD_4P-L2.0-W1.6-BL NDK NX2016SA-32MHZ-EXS00A-CS06654" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C5441424" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "NDK" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part" "NX2016SA-32MHZ-EXS00A-CS06654" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "NX2016SA-32MHZ-EXS00A-CS06654_0_1"
-      (rectangle (start -5.08 5.08) (end 5.08 -5.08)
-        (stroke (width 0.254) (type solid))
-        (fill (type background))
-      )
-      (rectangle (start -0.508 1.778) (end 0.508 -1.778)
-        (stroke (width 0.254) (type solid))
-        (fill (type background))
-      )
-      (circle (center -3.81 -3.81) (radius 0.381)
-        (stroke (width 0.254) (type solid))
-        (fill (type outline))
-      )
-      (polyline
-        (pts (xy -1.27 -1.778) (xy -1.27 1.778))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy 1.27 -1.778) (xy 1.27 1.778))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.27 0))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.27 0))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (pin input line (at -7.62 -2.54 0) (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27)) hide))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 7.62 2.54 180) (length 2.54)
-        (name "3" (effects (font (size 1.27 1.27)) hide))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -7.62 2.54 0) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27)) hide))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at 7.62 -2.54 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27)) hide))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "Q13FC1350000400"
-    (pin_names (offset 1.016))
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "X" (at 0 3.778 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Q13FC1350000400" (at 0 -3.778 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "JLCImport:Q13FC1350000400" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404180925_Seiko-Epson-Q13FC13500004_C32346.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "-40℃~+85℃ 12.5pF 32.768kHz 70kΩ Crystal Oscillator ±20ppm SMD3215-2P Crystals ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "C32346 FC-135R_L3.2-W1.5 Q13FC13500004 Seiko Epson" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C32346" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Seiko Epson" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part" "Q13FC13500004" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "Q13FC1350000400_0_1"
-      (rectangle (start -0.508 1.778) (end 0.508 -1.778)
-        (stroke (width 0.254) (type solid))
-        (fill (type background))
-      )
-      (polyline
-        (pts (xy -1.016 1.778) (xy -1.016 -1.778))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy 1.016 1.778) (xy 1.016 -1.778))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.54 0) (xy -1.016 0))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy 1.016 0) (xy 2.54 0))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (pin unspecified line (at -5.08 0 0) (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27)) hide))
-        (number "1" (effects (font (size 1.27 1.27)) hide))
-      )
-      (pin unspecified line (at 5.08 0 180) (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27)) hide))
-        (number "2" (effects (font (size 1.27 1.27)) hide))
-      )
-    )
-  )
-  (symbol "TPS63802DLAR"
-    (pin_names (offset 1.016))
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "U" (at 0 9.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "TPS63802DLAR" (at 0 -9.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "JLCImport:TPS63802DLAR" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220830_Texas-Instruments-TPS63802DLAR_C2845237.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "-40℃~+125℃@(TJ) 1 1.3V~5.5V 1.4MHz、1.6MHz、2.1MHz 1.8V~5.2V 11uA 2A Adjustable Buck-Boost Buck-Boost Built-in Yes VSON-10(2x3) DC-DC Converters ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "C2845237 TPS63802DLAR Texas Instruments VSON-10_L3.0-W2.0-P0.50-TL" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C2845237" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Texas Instruments" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part" "TPS63802DLAR" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "TPS63802DLAR_0_1"
-      (polyline
-        (pts
-          (xy 8.382 -7.62)
-          (xy 8.48106 -7.610239)
-          (xy 8.576403 -7.581331)
-          (xy 8.66423 -7.534387)
-          (xy 8.74121 -7.47121)
-          (xy 8.804387 -7.39423)
-          (xy 8.851331 -7.306403)
-          (xy 8.880239 -7.21106)
-          (xy 8.89 -7.112)
-          (xy 8.880239 7.21106)
-          (xy 8.851331 7.306403)
-          (xy 8.804387 7.39423)
-          (xy 8.74121 7.47121)
-          (xy 8.66423 7.534387)
-          (xy 8.576403 7.581331)
-          (xy 8.48106 7.610239)
-          (xy 8.382 7.62)
-          (xy -8.48106 7.610239)
-          (xy -8.576403 7.581331)
-          (xy -8.66423 7.534387)
-          (xy -8.74121 7.47121)
-          (xy -8.804387 7.39423)
-          (xy -8.851331 7.306403)
-          (xy -8.880239 7.21106)
-          (xy -8.89 7.112)
-          (xy -8.880239 -7.21106)
-          (xy -8.851331 -7.306403)
-          (xy -8.804387 -7.39423)
-          (xy -8.74121 -7.47121)
-          (xy -8.66423 -7.534387)
-          (xy -8.576403 -7.581331)
-          (xy -8.48106 -7.610239)
-          (xy -8.382 -7.62)
-          (xy 8.382 -7.62)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type background))
-      )
-      (circle (center -7.62 6.35) (radius 0.381)
-        (stroke (width 0.254) (type solid))
-        (fill (type outline))
-      )
-      (pin unspecified line (at -11.43 5.08 0) (length 2.54)
-        (name "EN" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -11.43 2.54 0) (length 2.54)
-        (name "MODE" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -11.43 0 0) (length 2.54)
-        (name "AGND" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -11.43 -2.54 0) (length 2.54)
-        (name "FB" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -11.43 -5.08 0) (length 2.54)
-        (name "PG" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 -5.08 180) (length 2.54)
-        (name "VOUT" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 -2.54 180) (length 2.54)
-        (name "L2" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 0 180) (length 2.54)
-        (name "GND" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 2.54 180) (length 2.54)
-        (name "L1" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 5.08 180) (length 2.54)
-        (name "VIN" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "XFL4015-471MEC"
-    (pin_names (offset 1.016))
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "L" (at 0 2 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "XFL4015-471MEC" (at 0 -2 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "JLCImport:XFL4015-471MEC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_Coilcraft-XFL4015-471MEC_C18221164.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "11.2A 470nH 6.6A 7.6mΩ AEC-Q200 ±20% SMD,4x4mm Power Inductors ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "C18221164 Coilcraft IND-SMD_L4.0-W4.0_XFL4020-102MEB XFL4015-471MEC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C18221164" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Coilcraft" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part" "XFL4015-471MEC" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "XFL4015-471MEC_0_1"
-      (arc (start -2.032 -0.00508) (mid -3.04292 1.016) (end -4.064 0.00508)
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (arc (start 0 -0.00508) (mid -1.01092 1.016) (end -2.032 0.00508)
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (arc (start 4.064 -0.00508) (mid 3.05308 1.016) (end 2.032 0.00508)
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (arc (start 2.032 -0.00508) (mid 1.02108 1.016) (end 0 0.00508)
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (pin unspecified line (at 5.08 0 180) (length 1.016)
-        (name "2" (effects (font (size 1.27 1.27)) hide))
-        (number "2" (effects (font (size 1.27 1.27)) hide))
-      )
-      (pin unspecified line (at -5.08 0 0) (length 1.016)
-        (name "1" (effects (font (size 1.27 1.27)) hide))
-        (number "1" (effects (font (size 1.27 1.27)) hide))
-      )
-    )
-  )
-  (symbol "5034801000"
-    (pin_names (offset 1.016))
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "FPC" (at 0 15.97 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "5034801000" (at 0 -16.478 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "JLCImport:5034801000" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406280946_MOLEX-5034801000_C127355.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "-40℃~+85℃ 0.3mm 0.5mm 10P 1mm 500mA 50V Double-Sided Contacts, Top and Bottom Entry Gold Hinged Lid Phosphor bronze Surface Mount, Right Angle SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "5034801000 C127355 FPC-SMD_5034801000 MOLEX" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C127355" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "MOLEX" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part" "5034801000" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "5034801000_0_1"
-      (polyline
-        (pts
-          (xy 5.842 -14.478)
-          (xy 5.94106 -14.468239)
-          (xy 6.036403 -14.439331)
-          (xy 6.12423 -14.392387)
-          (xy 6.20121 -14.32921)
-          (xy 6.264387 -14.25223)
-          (xy 6.311331 -14.164403)
-          (xy 6.340239 -14.06906)
-          (xy 6.35 -13.97)
-          (xy 6.340239 13.56106)
-          (xy 6.311331 13.656403)
-          (xy 6.264387 13.74423)
-          (xy 6.20121 13.82121)
-          (xy 6.12423 13.884387)
-          (xy 6.036403 13.931331)
-          (xy 5.94106 13.960239)
-          (xy 5.842 13.97)
-          (xy -0.86106 13.960239)
-          (xy -0.956403 13.931331)
-          (xy -1.04423 13.884387)
-          (xy -1.12121 13.82121)
-          (xy -1.184387 13.74423)
-          (xy -1.231331 13.656403)
-          (xy -1.260239 13.56106)
-          (xy -1.27 13.462)
-          (xy -1.260239 -14.06906)
-          (xy -1.231331 -14.164403)
-          (xy -1.184387 -14.25223)
-          (xy -1.12121 -14.32921)
-          (xy -1.04423 -14.392387)
-          (xy -0.956403 -14.439331)
-          (xy -0.86106 -14.468239)
-          (xy -0.762 -14.478)
-          (xy 5.842 -14.478)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type background))
-      )
-      (circle (center -0.508 13.208) (radius 0.381)
-        (stroke (width 0.254) (type solid))
-        (fill (type outline))
-      )
-      (pin unspecified line (at -3.81 11.43 0) (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 8.89 0) (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 6.35 0) (length 2.54)
-        (name "3" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 3.81 0) (length 2.54)
-        (name "4" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 1.27 0) (length 2.54)
-        (name "5" (effects (font (size 1.27 1.27))))
-        (number "5" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 -1.27 0) (length 2.54)
-        (name "6" (effects (font (size 1.27 1.27))))
-        (number "6" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 -3.81 0) (length 2.54)
-        (name "7" (effects (font (size 1.27 1.27))))
-        (number "7" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 -6.35 0) (length 2.54)
-        (name "8" (effects (font (size 1.27 1.27))))
-        (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 -8.89 0) (length 2.54)
-        (name "9" (effects (font (size 1.27 1.27))))
-        (number "9" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -3.81 -11.43 0) (length 2.54)
-        (name "10" (effects (font (size 1.27 1.27))))
-        (number "10" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 -11.43 180) (length 5.08)
-        (name "11" (effects (font (size 1.27 1.27))))
-        (number "11" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 11.43 11.43 180) (length 5.08)
-        (name "12" (effects (font (size 1.27 1.27))))
-        (number "12" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "SK-3296S-01-L1"
-    (pin_names (offset 1.016))
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "SW" (at 0 7.08 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "SK-3296S-01-L1" (at 0 -9.62 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "JLCImport:SK-3296S-01-L1" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2110151630_XKB-Connection-SK-3296S-01-L1_C319020.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "-40℃~+85℃ 1.35mm 10000 times 12V 2.75mm 50mA 7.8mm Black Rectangular Columnar SMD(SMT) Tab SPDT Surface Mount, Right Angle SMD,7.8x2.8mm Slide Switches ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "C319020 SK-3296S-01-L1 SW-SMD_3P-P1.50_L2.7-W6.6 XKB Connection" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C319020" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "XKB Connection" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part" "SK-3296S-01-L1" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "SK-3296S-01-L1_0_1"
-      (polyline
-        (pts
-          (xy 4.572 -7.62)
-          (xy 4.67106 -7.610239)
-          (xy 4.766403 -7.581331)
-          (xy 4.85423 -7.534387)
-          (xy 4.93121 -7.47121)
-          (xy 4.994387 -7.39423)
-          (xy 5.041331 -7.306403)
-          (xy 5.070239 -7.21106)
-          (xy 5.08 -7.112)
-          (xy 5.070239 4.67106)
-          (xy 5.041331 4.766403)
-          (xy 4.994387 4.85423)
-          (xy 4.93121 4.93121)
-          (xy 4.85423 4.994387)
-          (xy 4.766403 5.041331)
-          (xy 4.67106 5.070239)
-          (xy 4.572 5.08)
-          (xy -4.67106 5.070239)
-          (xy -4.766403 5.041331)
-          (xy -4.85423 4.994387)
-          (xy -4.93121 4.93121)
-          (xy -4.994387 4.85423)
-          (xy -5.041331 4.766403)
-          (xy -5.070239 4.67106)
-          (xy -5.08 4.572)
-          (xy -5.070239 -7.21106)
-          (xy -5.041331 -7.306403)
-          (xy -4.994387 -7.39423)
-          (xy -4.93121 -7.47121)
-          (xy -4.85423 -7.534387)
-          (xy -4.766403 -7.581331)
-          (xy -4.67106 -7.610239)
-          (xy -4.572 -7.62)
-          (xy 4.572 -7.62)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type background))
-      )
-      (circle (center -3.81 3.81) (radius 0.381)
-        (stroke (width 0.254) (type solid))
-        (fill (type outline))
-      )
-      (polyline
-        (pts (xy 2.54 2.54) (xy 2.54 -4.318) (xy 2.286 -2.794))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -5.08 2.54) (xy -2.54 2.54))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -5.08 -2.54) (xy -2.54 -2.54))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -3.81 -2.54) (xy -3.81 0) (xy -2.54 0))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -4.826 -5.08) (xy -2.54 -5.08))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.286 -2.54) (xy -2.794 -2.794))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.286 -2.54) (xy -2.794 -2.286))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.286 0) (xy -2.794 -0.254))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.286 0) (xy -2.794 0.254))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.286 -5.08) (xy -2.794 -5.334))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.286 -5.08) (xy -2.794 -4.826))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.286 2.54) (xy -2.794 2.286))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -2.286 2.54) (xy -2.794 2.794))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (polyline
-        (pts (xy -1.524 0.762) (xy 0 0.762) (xy 0 -5.842) (xy -1.524 -5.842) (xy -1.524 -4.318) (xy -0.762 -4.318) (xy -0.762 -0.762) (xy -1.524 -0.762) (xy -1.524 0.762))
-        (stroke (width 0.254) (type solid))
-        (fill (type none))
-      )
-      (pin unspecified line (at -7.62 2.54 0) (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27)) hide))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -7.62 -2.54 0) (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27)) hide))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at -7.62 -5.08 0) (length 2.54)
-        (name "3" (effects (font (size 1.27 1.27)) hide))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line (at 7.62 2.54 180) (length 2.54)
-        (name "0" (effects (font (size 1.27 1.27)) hide))
-        (number "0" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
-  (symbol "KH-GPS181804-WY"
-    (pin_names (offset 1.016))
-    (in_bom yes)
-    (on_board yes)
-    (property "Reference" "L" (at 0 4.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "KH-GPS181804-WY" (at 0 -4.54 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "JLCImport:KH-GPS181804-WY" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2011291035_Shenzhen-Kinghelm-Elec-KH-GPS181804-WY_C962215.pdf" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Description" "-45℃~+75℃ 1.5 1.57542GHz 10MHz 18mm 18mm 3.5dBi 4mm 50Ω - Antennas ROHS" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "ki_keywords" "C962215 GPS-ANT-TH_L18.0-W18.0 KH-GPS181804-WY Shenzhen Kinghelm Elec" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C962215" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Shenzhen Kinghelm Elec" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part" "KH-GPS181804-WY" (at 0 0 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (symbol "KH-GPS181804-WY_0_1"
-      (polyline
-        (pts
-          (xy 3.302 -2.54)
-          (xy 3.40106 -2.530239)
-          (xy 3.496403 -2.501331)
-          (xy 3.58423 -2.454387)
-          (xy 3.66121 -2.39121)
-          (xy 3.724387 -2.31423)
-          (xy 3.771331 -2.226403)
-          (xy 3.800239 -2.13106)
-          (xy 3.81 -2.032)
-          (xy 3.800239 2.13106)
-          (xy 3.771331 2.226403)
-          (xy 3.724387 2.31423)
-          (xy 3.66121 2.39121)
-          (xy 3.58423 2.454387)
-          (xy 3.496403 2.501331)
-          (xy 3.40106 2.530239)
-          (xy 3.302 2.54)
-          (xy -2.13106 2.530239)
-          (xy -2.226403 2.501331)
-          (xy -2.31423 2.454387)
-          (xy -2.39121 2.39121)
-          (xy -2.454387 2.31423)
-          (xy -2.501331 2.226403)
-          (xy -2.530239 2.13106)
-          (xy -2.54 2.032)
-          (xy -2.530239 -2.13106)
-          (xy -2.501331 -2.226403)
-          (xy -2.454387 -2.31423)
-          (xy -2.39121 -2.39121)
-          (xy -2.31423 -2.454387)
-          (xy -2.226403 -2.501331)
-          (xy -2.13106 -2.530239)
-          (xy -2.032 -2.54)
-          (xy 3.302 -2.54)
-        )
-        (stroke (width 0.254) (type solid))
-        (fill (type background))
-      )
-      (circle (center -1.27 1.27) (radius 0.381)
-        (stroke (width 0.254) (type solid))
-        (fill (type outline))
-      )
-      (pin unspecified line (at -5.08 0 0) (length 2.54)
-        (name "ANT" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "5034801000"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "FPC"
+			(at 0 15.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5034801000"
+			(at 0 -16.478 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:5034801000"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2406280946_MOLEX-5034801000_C127355.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 0.3mm 0.5mm 10P 1mm 500mA 50V Double-Sided Contacts, Top and Bottom Entry Gold Hinged Lid Phosphor bronze Surface Mount, Right Angle SMD,P=0.5mm,卧贴 FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C127355"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "5034801000"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "5034801000 C127355 FPC-SMD_5034801000 MOLEX"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "5034801000_0_1"
+			(circle
+				(center -0.508 13.208)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.842 -14.478) (xy 5.9411 -14.4682) (xy 6.0364 -14.4393) (xy 6.1242 -14.3924) (xy 6.2012 -14.3292)
+					(xy 6.2644 -14.2522) (xy 6.3113 -14.1644) (xy 6.3402 -14.0691) (xy 6.35 -13.97) (xy 6.3402 13.5611)
+					(xy 6.3113 13.6564) (xy 6.2644 13.7442) (xy 6.2012 13.8212) (xy 6.1242 13.8844) (xy 6.0364 13.9313)
+					(xy 5.9411 13.9602) (xy 5.842 13.97) (xy -0.8611 13.9602) (xy -0.9564 13.9313) (xy -1.0442 13.8844)
+					(xy -1.1212 13.8212) (xy -1.1844 13.7442) (xy -1.2313 13.6564) (xy -1.2602 13.5611) (xy -1.27 13.462)
+					(xy -1.2602 -14.0691) (xy -1.2313 -14.1644) (xy -1.1844 -14.2522) (xy -1.1212 -14.3292) (xy -1.0442 -14.3924)
+					(xy -0.9564 -14.4393) (xy -0.8611 -14.4682) (xy -0.762 -14.478) (xy 5.842 -14.478)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 11.43 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 8.89 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 6.35 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 3.81 0)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 1.27 0)
+				(length 2.54)
+				(name "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 -1.27 0)
+				(length 2.54)
+				(name "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 -3.81 0)
+				(length 2.54)
+				(name "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 -6.35 0)
+				(length 2.54)
+				(name "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 -8.89 0)
+				(length 2.54)
+				(name "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -3.81 -11.43 0)
+				(length 2.54)
+				(name "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -11.43 180)
+				(length 5.08)
+				(name "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 11.43 180)
+				(length 5.08)
+				(name "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "BQ51013BRHLR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 23.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ51013BRHLR"
+			(at 0 -23.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:BQ51013BRHLR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1809192124_Texas-Instruments-BQ51013BRHLR_C55663.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0℃~+125℃ 1.5A 4V~10V 5V Qi v1.1 Receiver Side (with Charging Management) VQFN-20(4.5x3.5) Wireless Charge-Discharge ICs ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C55663"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "BQ51013BRHLR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "BQ51013BRHLR C55663 Texas Instruments VQFN-20_L4.5-W3.5-P0.50-BL-EP_BQ24100RHLR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BQ51013BRHLR_0_1"
+			(polyline
+				(pts
+					(xy -10.16 16.51) (xy 10.16 16.51) (xy 12.7 16.51) (xy 12.7 -16.51) (xy 10.16 -16.51) (xy -10.16 -16.51)
+					(xy -12.7 -16.51) (xy -12.7 16.51) (xy -10.16 16.51)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(circle
+				(center -8.89 12.7)
+				(radius 1.27)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 21.59 270)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 8.89 0)
+				(length 5.08)
+				(name "AC1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 6.35 0)
+				(length 5.08)
+				(name "BOOT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 3.81 0)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 1.27 0)
+				(length 5.08)
+				(name "CLMP1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 -1.27 0)
+				(length 5.08)
+				(name "COM1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 -3.81 0)
+				(length 5.08)
+				(name "/CHG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 -6.35 0)
+				(length 5.08)
+				(name "/AD-EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 -8.89 0)
+				(length 5.08)
+				(name "AD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 -21.59 90)
+				(length 5.08)
+				(name "EN1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 -21.59 90)
+				(length 5.08)
+				(name "EN2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 -8.89 180)
+				(length 5.08)
+				(name "ILIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 -6.35 180)
+				(length 5.08)
+				(name "TS/CTRL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 -3.81 180)
+				(length 5.08)
+				(name "FOD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 -1.27 180)
+				(length 5.08)
+				(name "COM2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 1.27 180)
+				(length 5.08)
+				(name "CLMP2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 3.81 180)
+				(length 5.08)
+				(name "BOOT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 6.35 180)
+				(length 5.08)
+				(name "RECT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 8.89 180)
+				(length 5.08)
+				(name "AC2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 21.59 270)
+				(length 5.08)
+				(name "PGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 15.24 12.7 180)
+				(length 2.54)
+				(name "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "KH-GPS181804-WY"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at 0 4.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KH-GPS181804-WY"
+			(at 0 -4.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:KH-GPS181804-WY"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2011291035_Shenzhen-Kinghelm-Elec-KH-GPS181804-WY_C962215.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-45℃~+75℃ 1.5 1.57542GHz 10MHz 18mm 18mm 3.5dBi 4mm 50Ω - Antennas ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C962215"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Shenzhen Kinghelm Elec"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "KH-GPS181804-WY"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C962215 GPS-ANT-TH_L18.0-W18.0 KH-GPS181804-WY Shenzhen Kinghelm Elec"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "KH-GPS181804-WY_0_1"
+			(circle
+				(center -1.27 1.27)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -2.54) (xy 3.4011 -2.5302) (xy 3.4964 -2.5013) (xy 3.5842 -2.4544) (xy 3.6612 -2.3912)
+					(xy 3.7244 -2.3142) (xy 3.7713 -2.2264) (xy 3.8002 -2.1311) (xy 3.81 -2.032) (xy 3.8002 2.1311)
+					(xy 3.7713 2.2264) (xy 3.7244 2.3142) (xy 3.6612 2.3912) (xy 3.5842 2.4544) (xy 3.4964 2.5013)
+					(xy 3.4011 2.5302) (xy 3.302 2.54) (xy -2.1311 2.5302) (xy -2.2264 2.5013) (xy -2.3142 2.4544)
+					(xy -2.3912 2.3912) (xy -2.4544 2.3142) (xy -2.5013 2.2264) (xy -2.5302 2.1311) (xy -2.54 2.032)
+					(xy -2.5302 -2.1311) (xy -2.5013 -2.2264) (xy -2.4544 -2.3142) (xy -2.3912 -2.3912) (xy -2.3142 -2.4544)
+					(xy -2.2264 -2.5013) (xy -2.1311 -2.5302) (xy -2.032 -2.54) (xy 3.302 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "ANT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NX2016SA-32MHZ-EXS00A-CS06654"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 0 7.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NX2016SA-32MHZ-EXS00A-CS06654"
+			(at 0 -7.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:NX2016SA-32MHZ-EXS00A-CS06654"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://item.szlcsc.com/248817.html"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+125℃ 32MHz 60Ω 8pF Crystal Oscillator SMD2016-4P Crystals ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C5441424"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "NDK"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "NX2016SA-32MHZ-EXS00A-CS06654"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C5441424 CRYSTAL-SMD_4P-L2.0-W1.6-BL NDK NX2016SA-32MHZ-EXS00A-CS06654"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "NX2016SA-32MHZ-EXS00A-CS06654_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -2.54 -2.54) (xy -2.54 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.81 -3.81)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.778) (xy -1.27 1.778)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.508 1.778)
+				(end 0.508 -1.778)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.778) (xy 1.27 1.778)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 2.54) (xy 2.54 2.54) (xy 2.54 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin input line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 -2.54 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "Q13FC1350000400"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "X"
+			(at 0 3.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Q13FC1350000400"
+			(at 0 -3.778 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:Q13FC1350000400"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2404180925_Seiko-Epson-Q13FC13500004_C32346.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 12.5pF 32.768kHz 70kΩ Crystal Oscillator ±20ppm SMD3215-2P Crystals ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C32346"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Seiko Epson"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "Q13FC13500004"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C32346 FC-135R_L3.2-W1.5 Q13FC13500004 Seiko Epson"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Q13FC1350000400_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy -1.016 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.016 1.778) (xy -1.016 -1.778)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -0.508 1.778)
+				(end 0.508 -1.778)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 1.778) (xy 1.016 -1.778)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "SK-3296S-01-L1"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 0 7.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK-3296S-01-L1"
+			(at 0 -9.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:SK-3296S-01-L1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2110151630_XKB-Connection-SK-3296S-01-L1_C319020.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+85℃ 1.35mm 10000 times 12V 2.75mm 50mA 7.8mm Black Rectangular Columnar SMD(SMT) Tab SPDT Surface Mount, Right Angle SMD,7.8x2.8mm Slide Switches ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C319020"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "XKB Connection"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "SK-3296S-01-L1"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C319020 SK-3296S-01-L1 SW-SMD_3P-P1.50_L2.7-W6.6 XKB Connection"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SK-3296S-01-L1_0_1"
+			(polyline
+				(pts
+					(xy -5.08 2.54) (xy -2.54 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -2.54) (xy -2.54 -2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.826 -5.08) (xy -2.54 -5.08)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -3.81 3.81)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.81 -2.54) (xy -3.81 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 2.54) (xy -2.794 2.794)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 2.54) (xy -2.794 2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 0) (xy -2.794 0.254)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 0) (xy -2.794 -0.254)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -2.54) (xy -2.794 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -2.54) (xy -2.794 -2.794)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -5.08) (xy -2.794 -4.826)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.286 -5.08) (xy -2.794 -5.334)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.524 0.762) (xy 0 0.762) (xy 0 -5.842) (xy -1.524 -5.842) (xy -1.524 -4.318) (xy -0.762 -4.318)
+					(xy -0.762 -0.762) (xy -1.524 -0.762) (xy -1.524 0.762)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 -4.318) (xy 2.286 -2.794)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.572 -7.62) (xy 4.6711 -7.6102) (xy 4.7664 -7.5813) (xy 4.8542 -7.5344) (xy 4.9312 -7.4712)
+					(xy 4.9944 -7.3942) (xy 5.0413 -7.3064) (xy 5.0702 -7.2111) (xy 5.08 -7.112) (xy 5.0702 4.6711)
+					(xy 5.0413 4.7664) (xy 4.9944 4.8542) (xy 4.9312 4.9312) (xy 4.8542 4.9944) (xy 4.7664 5.0413)
+					(xy 4.6711 5.0702) (xy 4.572 5.08) (xy -4.6711 5.0702) (xy -4.7664 5.0413) (xy -4.8542 4.9944)
+					(xy -4.9312 4.9312) (xy -4.9944 4.8542) (xy -5.0413 4.7664) (xy -5.0702 4.6711) (xy -5.08 4.572)
+					(xy -5.0702 -7.2111) (xy -5.0413 -7.3064) (xy -4.9944 -7.3942) (xy -4.9312 -7.4712) (xy -4.8542 -7.5344)
+					(xy -4.7664 -7.5813) (xy -4.6711 -7.6102) (xy -4.572 -7.62) (xy 4.572 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 2.54 180)
+				(length 2.54)
+				(name "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -7.62 -2.54 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -7.62 -5.08 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS63802DLAR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 9.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS63802DLAR"
+			(at 0 -9.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:TPS63802DLAR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2302220830_Texas-Instruments-TPS63802DLAR_C2845237.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-40℃~+125℃@(TJ) 1 1.3V~5.5V 1.4MHz、1.6MHz、2.1MHz 1.8V~5.2V 11uA 2A Adjustable Buck-Boost Buck-Boost Built-in Yes VSON-10(2x3) DC-DC Converters ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2845237"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "TPS63802DLAR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C2845237 TPS63802DLAR Texas Instruments VSON-10_L3.0-W2.0-P0.50-TL"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS63802DLAR_0_1"
+			(circle
+				(center -7.62 6.35)
+				(radius 0.381)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.382 -7.62) (xy 8.4811 -7.6102) (xy 8.5764 -7.5813) (xy 8.6642 -7.5344) (xy 8.7412 -7.4712)
+					(xy 8.8044 -7.3942) (xy 8.8513 -7.3064) (xy 8.8802 -7.2111) (xy 8.89 -7.112) (xy 8.8802 7.2111)
+					(xy 8.8513 7.3064) (xy 8.8044 7.3942) (xy 8.7412 7.4712) (xy 8.6642 7.5344) (xy 8.5764 7.5813)
+					(xy 8.4811 7.6102) (xy 8.382 7.62) (xy -8.4811 7.6102) (xy -8.5764 7.5813) (xy -8.6642 7.5344)
+					(xy -8.7412 7.4712) (xy -8.8044 7.3942) (xy -8.8513 7.3064) (xy -8.8802 7.2111) (xy -8.89 7.112)
+					(xy -8.8802 -7.2111) (xy -8.8513 -7.3064) (xy -8.8044 -7.3942) (xy -8.7412 -7.4712) (xy -8.6642 -7.5344)
+					(xy -8.5764 -7.5813) (xy -8.4811 -7.6102) (xy -8.382 -7.62) (xy 8.382 -7.62)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 5.08 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 2.54 0)
+				(length 2.54)
+				(name "MODE"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 0 0)
+				(length 2.54)
+				(name "AGND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -2.54 0)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -5.08 0)
+				(length 2.54)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -5.08 180)
+				(length 2.54)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 -2.54 180)
+				(length 2.54)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 0 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 2.54 180)
+				(length 2.54)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 5.08 180)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "XFL4015-471MEC"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "L"
+			(at 0 2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "XFL4015-471MEC"
+			(at 0 -2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JLCImport:XFL4015-471MEC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312221742_Coilcraft-XFL4015-471MEC_C18221164.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "11.2A 470nH 6.6A 7.6mΩ AEC-Q200 ±20% SMD,4x4mm Power Inductors ROHS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C18221164"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Coilcraft"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "XFL4015-471MEC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "C18221164 Coilcraft IND-SMD_L4.0-W4.0_XFL4020-102MEB XFL4015-471MEC"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "XFL4015-471MEC_0_1"
+			(arc
+				(start -4.064 0.0051)
+				(mid -3.0429 1.016)
+				(end -2.032 -0.0051)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -2.032 0.0051)
+				(mid -1.0109 1.016)
+				(end 0 -0.0051)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 0 0.0051)
+				(mid 1.0211 1.016)
+				(end 2.032 -0.0051)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 2.032 0.0051)
+				(mid 3.0531 1.016)
+				(end 4.064 -0.0051)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -5.08 0 0)
+				(length 1.016)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 5.08 0 180)
+				(length 1.016)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 )
