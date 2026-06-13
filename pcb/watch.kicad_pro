@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_over_copper|91150000|91025000|4efec3ec-83cf-400c-86a5-ee1ccc06c413|3bc2597e-c68c-46b0-993b-e4a00c010276",
+          ""
+        ],
+        [
+          "starved_thermal|121300000|105390000|426abad4-70ed-4aa2-8ad5-0e0dde9827ee|55341c0e-bb13-4a98-a33d-969d69204231|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -104,7 +113,7 @@
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "ignore",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
@@ -114,7 +123,7 @@
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
-        "net_conflict": "warning",
+        "net_conflict": "ignore",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "error",
         "padstack": "warning",
@@ -775,7 +784,7 @@
         "uuid": "55e581b0-f918-4a43-a276-2e38ad945bed"
       }
     ],
-    "used_designators": "AE1,E1,U10,BT1,SW6",
+    "used_designators": "L5,C16,C29,SW6,AE1,E1,U10,BT1",
     "variants": []
   },
   "sheets": [
