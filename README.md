@@ -1,8 +1,8 @@
 ## BOM
 | Value | Qty | Link |
 |-------|-----|------|
-| DSGP.1575.18.4.A.02 | 1 |  |
-| Adafruit Wireless Chg Module | 1 |  |
+| DSGP.1575.18.4.A.02 | 1 | [Digikey](https://www.digikey.com/en/products/detail/taoglas-limited/DSGP-1575-18-4-A-02/8275269) |
+| Adafruit Wireless Chg Module | 1 | [Digikey](https://www.adafruit.com/product/1901) |
 | 100nF | 9 | [C1525](https://www.lcsc.com/product-detail/C1525.html) |
 | 100pF | 1 | [C1546](https://www.lcsc.com/product-detail/C1546.html) |
 | 12pF | 2 | [C1547](https://www.lcsc.com/product-detail/C1547.html) |
