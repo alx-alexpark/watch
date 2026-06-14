@@ -1,3 +1,9 @@
+# GPS-Synchronized Watch
+A nRF52840-based smartwatch that synchronizes its time from GPS satelites, featuring a waterproof enclosure and month-long battery life.
+
+## Why I made this
+Commonly used time synchronization methods such as NTP commonly used by smartwatches only provide accuracy of around 5-50ms, which is honestly not that good. GPS time is accurate to 10-50 nanoseconds, which is very good. I also care a lot about privacy so I wanted to make an air-gapped smartwatch that still is able to get very accurate time.
+
 ## BOM
 | Value | Qty | Link |
 |-------|-----|------|
