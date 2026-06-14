@@ -4,6 +4,10 @@ A nRF52840-based smartwatch that synchronizes its time from GPS satelites, featu
 ## Why I made this
 Commonly used time synchronization methods such as NTP commonly used by smartwatches only provide accuracy of around 5-50ms, which is honestly not that good. GPS time is accurate to 10-50 nanoseconds, which is very good. I also care a lot about privacy so I wanted to make an air-gapped smartwatch that still is able to get very accurate time.
 
+## Design files
+[View PCB/Schematics on KiCanvas](https://kicanvas.org/?repo=https%3A%2F%2Fgithub.com%2Falx-alexpark%2Fwatch%2Ftree%2Fmain%2Fpcb) \
+[View CAD on OnShape](https://cad.onshape.com/documents/4c7ff3da2943e425ef5063a9/w/a0d315951a28c31d027d9c75/e/9f56870fde0bf2563f4cad87?renderMode=0&uiState=6a2ecfbd296c1803119f765e)
+
 ## BOM
 | Value | Qty | Link |
 |-------|-----|------|
