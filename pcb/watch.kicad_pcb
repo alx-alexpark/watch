@@ -5803,7 +5803,7 @@
 			(uuid "ec4af201-3bb8-4b51-a742-ba0f49cf4ff8")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/RF_GPS.3dshapes/ublox_MAX.step"
+		(model "${KIPRJMOD}/libraries/MAX-M10S/MAX-M10S-00B.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5811,7 +5811,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -6847,15 +6847,15 @@
 			(uuid "deb843d6-ed29-4b9b-b6f4-c85fe1f9e842")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -1 1.5 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1.2 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -7601,7 +7601,7 @@
 			(uuid "aa13730b-9321-4d5d-bbf6-23373f37a5e0")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_G-Switch_GT-USB-7010ASV.step"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4125-xx-x-0190_6P_TopMnt_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7609,7 +7609,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -0)
 			)
 		)
 	)
@@ -17118,7 +17118,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "kicad-embed://dsgp_1575_18_4_a_02.obj"
+		(model "${KIPRJMOD}/libraries/DSGP.1575.18.4.A.02/dsgp_1575_18_4_a_02.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17126,7 +17126,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -19820,6 +19820,14 @@
 		(uuid "5b481761-23f8-4728-93bd-939d2e9e87a5")
 	)
 	(via
+		(at 93.614317 93.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "5c3f4fe4-ac96-4b67-a69f-4341e5848f1f")
+	)
+	(via
 		(at 99.314317 86.5)
 		(size 0.6)
 		(drill 0.3)
@@ -20436,12 +20444,28 @@
 		(uuid "83aa41ea-8825-4f81-bc89-bede332a4f20")
 	)
 	(via
+		(at 91.014317 97.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "83da5fc4-d84a-465b-a0ec-65ae92a6e507")
+	)
+	(via
 		(at 127.314317 85.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "84150b29-9322-4081-b859-d171be59ae1e")
+	)
+	(via
+		(at 93.614317 94.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "8424b1bd-aac1-4cb1-b36a-dd482248505c")
 	)
 	(via
 		(at 86.314317 72.5)
@@ -21586,6 +21610,14 @@
 		(layers "F.Cu" "B.Cu")
 		(net "GND")
 		(uuid "d59c7589-ef5c-4ad5-a36b-032129e0ff8c")
+	)
+	(via
+		(at 92.014317 97.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "d60498da-20c9-4087-9e17-bdf418cc1355")
 	)
 	(via
 		(at 87.314317 84.5)
